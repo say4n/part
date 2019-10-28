@@ -90,7 +90,7 @@ func main() {
 
 	rand.Seed(time.Now().UnixNano())
 
-	base := Rectangle{Point{pad, pad}, Point{1000, 1000}}
+	base := Rectangle{Point{pad, pad}, Point{1000 + pad, 1000 + pad}}
 	rects := []Rectangle{}
 	rects = append(rects, base)
 
